@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6693B7222437083800871324 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6693B7212437083800871324 /* AppDelegate.swift */; };
+		6693B7242437083800871324 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6693B7232437083800871324 /* SceneDelegate.swift */; };
+		6693B72B2437084200871324 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6693B72A2437084200871324 /* Assets.xcassets */; };
+		6693B72E2437084200871324 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6693B72C2437084200871324 /* LaunchScreen.storyboard */; };
+		6693B75B24370F0500871324 /* HHTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6693B75A24370F0500871324 /* HHTabBarVC.swift */; };
+		6693B75D243713A000871324 /* HHHallTabView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6693B75C243713A000871324 /* HHHallTabView.storyboard */; };
+		6693B75F243713F900871324 /* HHHallNavVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6693B75E243713F900871324 /* HHHallNavVC.swift */; };
+		6693B761243714A400871324 /* HHHallTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6693B760243714A400871324 /* HHHallTableVC.swift */; };
+		6693B7662437179A00871324 /* HHArenaTabView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6693B7652437179A00871324 /* HHArenaTabView.storyboard */; };
+		6693B7682437184B00871324 /* HHArenaNavVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6693B7672437184B00871324 /* HHArenaNavVC.swift */; };
+		6693B76A243719D900871324 /* HHArenaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6693B769243719D900871324 /* HHArenaVC.swift */; };
+		6693B76C24371A2500871324 /* HHDiscoveryTabView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6693B76B24371A2500871324 /* HHDiscoveryTabView.storyboard */; };
+		6693B76E24371BC400871324 /* HHDiscoveryTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6693B76D24371BC400871324 /* HHDiscoveryTableVC.swift */; };
+		6693B77024371C0300871324 /* HHDiscoveryNavVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6693B76F24371C0300871324 /* HHDiscoveryNavVC.swift */; };
+		6693B77224371C6500871324 /* HHHistoryTabView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6693B77124371C6500871324 /* HHHistoryTabView.storyboard */; };
+		6693B77424371CD900871324 /* HHHistoryNavVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6693B77324371CD900871324 /* HHHistoryNavVC.swift */; };
+		6693B77624371CF300871324 /* HHHistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6693B77524371CF300871324 /* HHHistoryVC.swift */; };
+		6693B77824371D3900871324 /* HHMyLotteryTabView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6693B77724371D3900871324 /* HHMyLotteryTabView.storyboard */; };
+		6693B77A24371DA700871324 /* HHMyLotteryNavVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6693B77924371DA700871324 /* HHMyLotteryNavVC.swift */; };
+		6693B77C24371DD600871324 /* HHMyLotteryTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6693B77B24371DD600871324 /* HHMyLotteryTableVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6693B71E2437083800871324 /* advanced-0045-lottery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "advanced-0045-lottery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6693B7212437083800871324 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6693B7232437083800871324 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6693B72A2437084200871324 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6693B72D2437084200871324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6693B72F2437084200871324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6693B75A24370F0500871324 /* HHTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HHTabBarVC.swift; sourceTree = "<group>"; };
+		6693B75C243713A000871324 /* HHHallTabView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HHHallTabView.storyboard; sourceTree = "<group>"; };
+		6693B75E243713F900871324 /* HHHallNavVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HHHallNavVC.swift; sourceTree = "<group>"; };
+		6693B760243714A400871324 /* HHHallTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HHHallTableVC.swift; sourceTree = "<group>"; };
+		6693B7642437164E00871324 /* lotteryPCH.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lotteryPCH.pch; sourceTree = "<group>"; };
+		6693B7652437179A00871324 /* HHArenaTabView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HHArenaTabView.storyboard; sourceTree = "<group>"; };
+		6693B7672437184B00871324 /* HHArenaNavVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HHArenaNavVC.swift; sourceTree = "<group>"; };
+		6693B769243719D900871324 /* HHArenaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HHArenaVC.swift; sourceTree = "<group>"; };
+		6693B76B24371A2500871324 /* HHDiscoveryTabView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HHDiscoveryTabView.storyboard; sourceTree = "<group>"; };
+		6693B76D24371BC400871324 /* HHDiscoveryTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HHDiscoveryTableVC.swift; sourceTree = "<group>"; };
+		6693B76F24371C0300871324 /* HHDiscoveryNavVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HHDiscoveryNavVC.swift; sourceTree = "<group>"; };
+		6693B77124371C6500871324 /* HHHistoryTabView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HHHistoryTabView.storyboard; sourceTree = "<group>"; };
+		6693B77324371CD900871324 /* HHHistoryNavVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HHHistoryNavVC.swift; sourceTree = "<group>"; };
+		6693B77524371CF300871324 /* HHHistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HHHistoryVC.swift; sourceTree = "<group>"; };
+		6693B77724371D3900871324 /* HHMyLotteryTabView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HHMyLotteryTabView.storyboard; sourceTree = "<group>"; };
+		6693B77924371DA700871324 /* HHMyLotteryNavVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HHMyLotteryNavVC.swift; sourceTree = "<group>"; };
+		6693B77B24371DD600871324 /* HHMyLotteryTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HHMyLotteryTableVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6693B71B2437083800871324 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6693B7152437083800871324 = {
+			isa = PBXGroup;
+			children = (
+				6693B7202437083800871324 /* advanced-0045-lottery */,
+				6693B71F2437083800871324 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6693B71F2437083800871324 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6693B71E2437083800871324 /* advanced-0045-lottery.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6693B7202437083800871324 /* advanced-0045-lottery */ = {
+			isa = PBXGroup;
+			children = (
+				6693B763243715FF00871324 /* Others */,
+				6693B762243715F600871324 /* Common */,
+				6693B75224370D0000871324 /* Arena */,
+				6693B74E24370D0000871324 /* Discovery */,
+				6693B74624370D0000871324 /* Hall */,
+				6693B74A24370D0000871324 /* History */,
+				6693B75624370D0000871324 /* Main */,
+				6693B74224370CFF00871324 /* Mylottery */,
+				6693B7212437083800871324 /* AppDelegate.swift */,
+				6693B7232437083800871324 /* SceneDelegate.swift */,
+				6693B72A2437084200871324 /* Assets.xcassets */,
+				6693B72C2437084200871324 /* LaunchScreen.storyboard */,
+				6693B72F2437084200871324 /* Info.plist */,
+			);
+			path = "advanced-0045-lottery";
+			sourceTree = "<group>";
+		};
+		6693B74224370CFF00871324 /* Mylottery */ = {
+			isa = PBXGroup;
+			children = (
+				6693B74324370CFF00871324 /* Models */,
+				6693B74424370CFF00871324 /* Controllers */,
+				6693B74524370CFF00871324 /* Views */,
+			);
+			path = Mylottery;
+			sourceTree = "<group>";
+		};
+		6693B74324370CFF00871324 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6693B74424370CFF00871324 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6693B77924371DA700871324 /* HHMyLotteryNavVC.swift */,
+				6693B77B24371DD600871324 /* HHMyLotteryTableVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6693B74524370CFF00871324 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6693B77724371D3900871324 /* HHMyLotteryTabView.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6693B74624370D0000871324 /* Hall */ = {
+			isa = PBXGroup;
+			children = (
+				6693B74724370D0000871324 /* Models */,
+				6693B74824370D0000871324 /* Controllers */,
+				6693B74924370D0000871324 /* Views */,
+			);
+			path = Hall;
+			sourceTree = "<group>";
+		};
+		6693B74724370D0000871324 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6693B74824370D0000871324 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6693B760243714A400871324 /* HHHallTableVC.swift */,
+				6693B75E243713F900871324 /* HHHallNavVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6693B74924370D0000871324 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6693B75C243713A000871324 /* HHHallTabView.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6693B74A24370D0000871324 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				6693B74B24370D0000871324 /* Models */,
+				6693B74C24370D0000871324 /* Controllers */,
+				6693B74D24370D0000871324 /* Views */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		6693B74B24370D0000871324 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6693B74C24370D0000871324 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6693B77324371CD900871324 /* HHHistoryNavVC.swift */,
+				6693B77524371CF300871324 /* HHHistoryVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6693B74D24370D0000871324 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6693B77124371C6500871324 /* HHHistoryTabView.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6693B74E24370D0000871324 /* Discovery */ = {
+			isa = PBXGroup;
+			children = (
+				6693B74F24370D0000871324 /* Models */,
+				6693B75024370D0000871324 /* Controllers */,
+				6693B75124370D0000871324 /* Views */,
+			);
+			path = Discovery;
+			sourceTree = "<group>";
+		};
+		6693B74F24370D0000871324 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6693B75024370D0000871324 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6693B76F24371C0300871324 /* HHDiscoveryNavVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6693B75124370D0000871324 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6693B76B24371A2500871324 /* HHDiscoveryTabView.storyboard */,
+				6693B76D24371BC400871324 /* HHDiscoveryTableVC.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6693B75224370D0000871324 /* Arena */ = {
+			isa = PBXGroup;
+			children = (
+				6693B75324370D0000871324 /* Models */,
+				6693B75424370D0000871324 /* Controllers */,
+				6693B75524370D0000871324 /* Views */,
+			);
+			path = Arena;
+			sourceTree = "<group>";
+		};
+		6693B75324370D0000871324 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6693B75424370D0000871324 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6693B7672437184B00871324 /* HHArenaNavVC.swift */,
+				6693B769243719D900871324 /* HHArenaVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6693B75524370D0000871324 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6693B7652437179A00871324 /* HHArenaTabView.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6693B75624370D0000871324 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				6693B75724370D0000871324 /* Models */,
+				6693B75824370D0000871324 /* Controllers */,
+				6693B75924370D0000871324 /* Views */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		6693B75724370D0000871324 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6693B75824370D0000871324 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6693B75A24370F0500871324 /* HHTabBarVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6693B75924370D0000871324 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6693B762243715F600871324 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				6693B7642437164E00871324 /* lotteryPCH.pch */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		6693B763243715FF00871324 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6693B71D2437083800871324 /* advanced-0045-lottery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6693B7322437084200871324 /* Build configuration list for PBXNativeTarget "advanced-0045-lottery" */;
+			buildPhases = (
+				6693B71A2437083800871324 /* Sources */,
+				6693B71B2437083800871324 /* Frameworks */,
+				6693B71C2437083800871324 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "advanced-0045-lottery";
+			productName = "advanced-0045-lottery";
+			productReference = 6693B71E2437083800871324 /* advanced-0045-lottery.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6693B7162437083800871324 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				TargetAttributes = {
+					6693B71D2437083800871324 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 6693B7192437083800871324 /* Build configuration list for PBXProject "advanced-0045-lottery" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6693B7152437083800871324;
+			productRefGroup = 6693B71F2437083800871324 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6693B71D2437083800871324 /* advanced-0045-lottery */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6693B71C2437083800871324 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6693B75D243713A000871324 /* HHHallTabView.storyboard in Resources */,
+				6693B7662437179A00871324 /* HHArenaTabView.storyboard in Resources */,
+				6693B77824371D3900871324 /* HHMyLotteryTabView.storyboard in Resources */,
+				6693B76C24371A2500871324 /* HHDiscoveryTabView.storyboard in Resources */,
+				6693B72E2437084200871324 /* LaunchScreen.storyboard in Resources */,
+				6693B77224371C6500871324 /* HHHistoryTabView.storyboard in Resources */,
+				6693B72B2437084200871324 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6693B71A2437083800871324 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6693B77A24371DA700871324 /* HHMyLotteryNavVC.swift in Sources */,
+				6693B7682437184B00871324 /* HHArenaNavVC.swift in Sources */,
+				6693B77024371C0300871324 /* HHDiscoveryNavVC.swift in Sources */,
+				6693B7222437083800871324 /* AppDelegate.swift in Sources */,
+				6693B75B24370F0500871324 /* HHTabBarVC.swift in Sources */,
+				6693B76A243719D900871324 /* HHArenaVC.swift in Sources */,
+				6693B76E24371BC400871324 /* HHDiscoveryTableVC.swift in Sources */,
+				6693B761243714A400871324 /* HHHallTableVC.swift in Sources */,
+				6693B77424371CD900871324 /* HHHistoryNavVC.swift in Sources */,
+				6693B7242437083800871324 /* SceneDelegate.swift in Sources */,
+				6693B77C24371DD600871324 /* HHMyLotteryTableVC.swift in Sources */,
+				6693B75F243713F900871324 /* HHHallNavVC.swift in Sources */,
+				6693B77624371CF300871324 /* HHHistoryVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6693B72C2437084200871324 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6693B72D2437084200871324 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6693B7302437084200871324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6693B7312437084200871324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6693B7332437084200871324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "advanced-0045-lottery/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bughh.advanced-0045-lottery";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6693B7342437084200871324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "advanced-0045-lottery/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bughh.advanced-0045-lottery";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6693B7192437083800871324 /* Build configuration list for PBXProject "advanced-0045-lottery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6693B7302437084200871324 /* Debug */,
+				6693B7312437084200871324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6693B7322437084200871324 /* Build configuration list for PBXNativeTarget "advanced-0045-lottery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6693B7332437084200871324 /* Debug */,
+				6693B7342437084200871324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6693B7162437083800871324 /* Project object */;
+}
